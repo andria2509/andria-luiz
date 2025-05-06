@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Meu Amor 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #c71585;
+    }
+    .mensagem {
+      white-space: pre-wrap;
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contador {
+      font-size: 1.2em;
+      margin-top: 20px;
+      color: #8b008b;
+    }
+    .imagens {
+      margin-top: 30px;
+    }
+    .imagens img {
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💌 Para o meu princeso</h1>
+
+  <div class="contador">
+    Estamos juntos há: <span id="dias"></span> dias!
+  </div>
+
+  <div class="mensagem">
+    meu amor, eu não tenho palavras para descrever o quanto eu te amo e o quanto você é especial para mim. Você é tão incrível que não consigo imaginar minha vida sem a tua presença e qualquer menção à sua perda já me deixa extremamente desestabilizada.
+
+    Sabe quando a gente é pequeno e fica chorando atoa com o dia que perderemos nossos pais? Não sei se isso é algo pessoal kkkk, mas já me peguei pensando nisso. Você é assim para mim, só de pensar nisso me dá vontade de chorar.
+
+    Eu te amo tanto, cada detalhe seu, seu sorriso, suas gracinhas, sua personalidade, sua inteligência, seu jeito de ser, seus cabelos, seus olhos, tudo tudo tudo.
+
+    Quero dizer que estou aqui com você sempre, para te apoiar, para ficar feliz pelas suas conquistas, para cuidar e te educarrr, afinal, sou sua segunda mãe kkkkkkkkk.
+
+    Enfim enfim, cada momento longe de você é um tormento e sinto muitas saudades, mas mesmo longe, te sinto (nossa primeira polaroid).
+
+    Eu te amo, meu princeso, meu little moço, meu pequeno, momo, momozi, I Love You So Mutch 💖
+  </div>
+
+  <div class="imagens">
+    <!-- Substitua os links abaixo pelas suas imagens reais -->
+    <img src="https://mail.google.com/mail/u/0/popout?ver=olhsjr6gamaf#attid%253Datt_196a799f4ce25535_0.1_196a799592620476312" alt="Foto 1">
+    <img src="https://mail.google.com/mail/u/0/popout?ver=olhsjr6gamaf#attid%253Datt_196a799f4ce25535_0.2_196a7995926b242191" alt="Foto 2">
+  </div>
+
+  <script>
+    // Data de início do relacionamento (exemplo: 2023-12-30)
+    const dataInicio = new Date("2023-12-30");
+    const hoje = new Date();
+    const diffTempo = hoje - dataInicio;
+    const dias = Math.floor(diffTempo / (1000 * 60 * 60 * 24));
+    document.getElementById("dias").textContent = dias;
+  </script>
+</body>
+</html>
